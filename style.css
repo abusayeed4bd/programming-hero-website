@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0F0826;
+}
+.texe-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.clear::before{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body, h1, h2, h3, h4, h5, h6, span, i, a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1115px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+img{
+    max-width: 100%;
+}
+
+/* main css start here */
+
+.header-section {
+    padding: 60px 10px;
+}
+.header-logo{
+    width: 20%;
+}
+.header-menu{
+    width: 80%;
+}
+.header-menu{}
+.header-menu ul{
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 14px;
+    text-transform: uppercase;
+    transition: .4s;
+    font-size: 15px;
+}
+.header-menu ul li a:hover{
+    color: #6535EE;
+}
+
+/* banner section */
+
+.banner-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.banner-text {
+    width: 48%;
+    position: relative;
+    top: 100px;
+} 
+.banner-text h1 {
+	font-size: 60px;
+	color: #fff;
+	line-height: 77px;
+}
+.banner-text p {
+	color: #fff;
+	margin-top: 17px;
+	font-weight: 300;
+}
+
+.banner-img {
+	width: 48%;
+	text-align: right;
+}
+.circle {
+    height: 232px;
+    width: 232px;
+    border-radius: 50%;
+    opacity: 0.5;
+    filter: blur(115px);
+    position: absolute;
+    z-index: -1;
+}
+.circle1 {
+    background: #3366ff;
+    left: -50px;
+    top: 70px;
+}
+.circle2 {
+    background: #ff5832;
+    right: 0;
+    bottom: -411px;
+}
+
+
+/* feature content */
+.null{
+    height: 100vh;
+    padding: 100px 0;
+}
+
+.height{
+    height: 500px;
+}
